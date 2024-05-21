@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Login</title>
 </head>
 <body>
@@ -10,18 +11,16 @@
         <h1>Seja Bem vindo!</h1>
     </div>
     <fieldset>
+    <div id="imagem">
         <div>
             <h2>Faça seu Login</h2>
         </div>
-    <div class="grupoform">
+    <div class="form-group" id="grupoform">
         <label for="IDemail">E-mail</label>
         <input type="email" placeholder="Digite seu Email">
 
         <label for="IDsenha">Senha<label>
-        <input type="password"
-             name="txtSenha"
-             id="IDsenha"
-             placeholder="Digite sua Senha">
+        <input type="password"name="txtSenha"id="IDsenha"placeholder="Digite sua Senha">
     </div>
     <div>
         <input type="checkbox" name="txtLembar" id="idLembar" value="lembrete" checked>
@@ -31,5 +30,6 @@
 
     <button id="closePage"> X </button>
     </fieldset>
+    </div>
 </body>
 </html>
