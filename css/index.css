@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+}
+
+.redirectlogin {
+    text-align: center;
+}
+
+/* Estilos adicionais para o cabeçalho e o título */
+h1 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.click{
+    height: 15%;
+    width: 30%;
+}
