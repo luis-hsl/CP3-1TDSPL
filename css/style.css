@@ -11,9 +11,21 @@ html, body {
   background-color: #000000;
 }
 .Bem-vindos {
+  font-family: sans-serif;
   text-align: center;
   background-color: #000000;
 }
+
+.Faça {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #000000;
+}
+
+.title{
+  font-family: sans-serif;
+}
+
 .card {
   margin: auto;
 }
